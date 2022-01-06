@@ -10,9 +10,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .container {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  padding: 0 8vw;
 }
 
 .flexbox {
@@ -71,16 +70,13 @@ body {
 .small-text {
   display: block;
 }
-.image-container {
-  display: flex;
-  align-items: flex-start;
-}
 .image-container .image {
   width: 100%;
 }
 
 .mission-section {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 .section-title {
   font-size: 40px;
@@ -96,8 +92,13 @@ body {
   background-color: #dbc4c7;
 }
 
+.card-container {
+  justify-content: space-around;
+}
+
 .card {
-  width: auto;
+  width: 350px;
+  height: 290px;
   padding: 30px 20px;
   margin-right: 15px;
   border-radius: 10px;
@@ -112,5 +113,46 @@ body {
 }
 
 .card-image {
+  width: 100px;
+  height: 100px;
+}
+
+.developer-section,
+.community-section {
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.min-width-child {
   width: 35%;
+}
+.max-width-child {
+  width: 65%;
+}
+
+.dev-title {
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: black;
+  height: 150px;
+  text-align: center;
+  padding: 40px;
+}
+
+.footer-title {
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Playball', cursive;
+}
+
+.footer-partial {
+  color: #5620ba;
+}
+
+.footer-sub-text {
+  color: white;
+  font-size: 13px;
 }
