@@ -48,6 +48,7 @@ body {
   font-size: 50px;
   line-height: 60px;
   padding-left: 10px;
+  font-family: 'Lora', serif;
 }
 
 .partial {
@@ -118,7 +119,8 @@ body {
 }
 
 .developer-section,
-.community-section {
+.community-section,
+.projects-container {
   gap: 50px;
   margin-bottom: 50px;
 }
@@ -131,7 +133,8 @@ body {
 }
 
 .dev-title {
-  line-height: 32px;
+  font-size: 32px;
+  line-height: 40px;
   margin-bottom: 15px;
 }
 
