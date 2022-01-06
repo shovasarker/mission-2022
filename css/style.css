@@ -88,9 +88,12 @@ body {
 #first-card {
   background-color: #cec7db;
 }
-#second-card,
-#third-card {
+#second-card {
   background-color: #dbc4c7;
+}
+
+#third-card {
+  background-color: #d4c5d2;
 }
 
 .card-container {
